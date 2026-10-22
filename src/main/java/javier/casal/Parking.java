@@ -97,7 +97,7 @@ public class Parking {
                 aparcar.entrar(numero, color);
 
                 // Simula el tiempo que el coche está aparcado (entre 1 y 5 segundos)
-                int tiempo = (int) (Math.random() * 5001) + 1000;
+                int tiempo = (int) (Math.random() * 4001) + 1000;
 
                 Thread.sleep(tiempo);
 
